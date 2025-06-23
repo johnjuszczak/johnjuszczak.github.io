@@ -1,6 +1,6 @@
-# John Juszczak — DevOps & Automation Portfolio
+# John Juszczak — Software Engineer Portfolio
 
-**Game DevOps | QA Automation | Build & Tools Engineer | Unreal Engine Specialist**
+**Build & Tools Engineer** | **Game DevOps** | **QA Automation** | **Unreal Engine Specialist**
 
 Welcome! I streamline dev workflows, automate build/test pipelines, and deliver robust tools for game studios and software teams. My background:  
 - 8+ years in C++ development
