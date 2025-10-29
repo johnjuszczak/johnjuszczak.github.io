@@ -5,7 +5,7 @@ classes: wide
 header:
   image: assets/images/heic0910e.jpg
   overlay_filter: 0.35
-  caption: "Credit: ESA/Webb, NASA & CSA, A. Adamo (Stockholm University) and the FEAST JWST team — <a href='https://esawebb.org/images/potm2308c/'>source</a>"
+  caption: "Credit: NASA, ESA and the Hubble SM4 ERO Team"
 og_image: assets/images/heic0910e.jpg
 feature_row:
   - title: "CompAsset"
