@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "John Juszczak — Software Engineer"
+title: "John Juszczak"
 excerpt: "Build & Tools | Game DevOps | Unreal Engine"
 feature_row:
   - title: "CompAsset"
