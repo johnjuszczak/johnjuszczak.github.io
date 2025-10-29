@@ -5,8 +5,6 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-@import "custom";
-
 .masthead .site-title {
     display: none;
 }
@@ -32,16 +30,4 @@
 .feature__item .archive__item-title {
   margin-top: .25rem;
   margin-bottom: .25rem;
-}
-
-.feature__item .archive__item-teaser,
-.feature__item .archive__item-body,
-.feature__item .archive__item-excerpt,
-.feature__item a {
-  position: relative;
-  z-index: 1;
-}
-
-.feature__item a.stretched-link {
-  position: static;
 }
