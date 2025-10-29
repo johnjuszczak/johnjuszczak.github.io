@@ -1,2 +1,6 @@
+{% if site.features.scroll_hero %}
 <script src="{{ '/assets/js/scroll-hero.js' | relative_url }}"></script>
+{% endif %}
+{% if site.features.bgfx %}
 <script defer src="{{ '/assets/js/particles-bg.js' | relative_url }}"></script>
+{% endif %}

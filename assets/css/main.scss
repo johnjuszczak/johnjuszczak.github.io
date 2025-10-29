@@ -5,11 +5,11 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-@import "custom";
+@import "custom_base";
 
-.masthead .site-title {
-    display: none !important;
-}
+{% if site.features.scroll_hero %}
+@import "custom_scroll";
+{% endif %}
 
 .feature__wrapper {
     gap: 1.25rem;

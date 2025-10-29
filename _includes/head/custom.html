@@ -1,5 +1,7 @@
 {% if site.baseurl contains '/pr-preview/' %}
 <meta name="robots" content="noindex,nofollow">
 {% endif %}
+{% if site.features.bgfx %}
 <style>#bgfx{position:fixed;inset:0;z-index:-1}</style>
 <canvas id="bgfx"></canvas>
+{% endif %}
