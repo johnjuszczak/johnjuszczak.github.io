@@ -17,7 +17,7 @@ feature_row:
     url: "/projects/backtrace-crash/"
 ---
 
-# Build & Tools Engineer • Game DevOps • Unreal Engine Specialist
+## Build & Tools Engineer • Game DevOps • Unreal Engine Specialist
 
 I streamline development workflows, automate build and test pipelines, and deliver tools that ship games and software reliably.
 
