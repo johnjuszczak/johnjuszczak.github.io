@@ -11,3 +11,5 @@ body.content-ready .initial-content { opacity: 1; transform: none; }
   .layout--single .page__hero--overlay { min-height: 45vh; }
 }
 
+.layout--single .page__hero--overlay{background-position:center var(--heroY,0px);background-size:cover;will-change:background-position}
+
