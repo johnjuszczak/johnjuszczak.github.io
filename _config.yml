@@ -35,7 +35,7 @@ defaults:
       layout: single
 
 features:
-  scroll_hero: true
+  scroll_hero: false
   bgfx: true
 
 analytics:
