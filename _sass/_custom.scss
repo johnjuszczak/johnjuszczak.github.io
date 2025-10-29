@@ -6,3 +6,8 @@
 
 .layout--single .initial-content { padding-top: 0; opacity: 0; transform: translateY(8px); transition: opacity .22s ease, transform .22s ease; }
 body.content-ready .initial-content { opacity: 1; transform: none; }
+
+@media (max-width: 768px) {
+  .layout--single .page__hero--overlay { min-height: 45vh; }
+}
+
