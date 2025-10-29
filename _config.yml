@@ -1,3 +1,22 @@
-theme: jekyll-theme-hacker
-title: John Juszczak — Software Engineer Portfolio
-google_analytics: G-ZE022WGL44
+title: "John Juszczak — Software Engineer Portfolio"
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-feed
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - scope: { path: "", type: projects }
+    values:
+      layout: single
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-ZE022WGL44"

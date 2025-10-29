@@ -1,3 +1,9 @@
+---
+layout: home
+title: "John Juszczak — Software Engineer"
+excerpt: "Build & Tools • Game DevOps • Unreal Engine"
+---
+
 # John Juszczak — Software Engineer Portfolio
 
 **Build & Tools Engineer** | **Game DevOps** | **QA Automation** | **Unreal Engine Specialist**
