@@ -9,5 +9,16 @@
 .layout--single .page__title { color: #d9e1e8; text-shadow: 0 2px 14px rgba(0,0,0,.7), 0 0 1px rgba(0,0,0,.5); }
 .layout--single .page__lead  { color: #cfd7de; text-shadow: 0 2px 12px rgba(0,0,0,.65); }
 
-.layout--single .sidebar { position: sticky; top: 100px; }
+.layout--single .sidebar { position: static !important; top: auto !important; }
+@media (min-width: 1024px) {
+  .layout--single .sidebar { position: sticky !important; top: 100px !important; }
+}
 
+.sidebar .author__urls-wrapper > .btn { display: none !important; }
+.sidebar .author__urls-wrapper {
+  position: static !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+}
+.sidebar .author__urls { display: block !important; }
