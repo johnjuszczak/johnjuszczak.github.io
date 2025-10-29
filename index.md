@@ -7,6 +7,7 @@ header:
   overlay_image: assets/images/heic0910e.jpg
   caption: "Credit: NASA, ESA and the Hubble SM4 ERO Team"
 og_image: assets/images/heic0910e.jpg
+excerpt: "Build & Tools Engineer • Game DevOps • Unreal Engine Specialist"
 feature_row:
   - title: "CompAsset"
     excerpt: "Asset verification tool"
@@ -21,8 +22,6 @@ feature_row:
     excerpt: "Crash reporting across Android and iOS integrated with Backtrace"
     url: "/projects/backtrace-crash/"
 ---
-
-## Build & Tools Engineer • Game DevOps • Unreal Engine Specialist
 
 I streamline development workflows, automate build and test pipelines, and deliver tools that ship games and software reliably.
 

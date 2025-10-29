@@ -1,4 +1,4 @@
-.masthead .site-title { display: none !important; }
+.masthead .site-title{color:#fff;-webkit-text-stroke:1px rgba(0,0,0,.35);text-shadow:0 2px 10px rgba(0,0,0,.45)}
 
 .layout--single .masthead {
   position: fixed; top: 0; left: 0; right: 0;
@@ -12,6 +12,8 @@
 
 .layout--single .site-nav { margin-left: 0; }
 .layout--single .initial-content { padding-top: 80px; }
+
+.layout--single .sidebar { position: sticky; top: 100px; }
 
 .layout--single .page__hero--overlay {
   margin-top: 0;

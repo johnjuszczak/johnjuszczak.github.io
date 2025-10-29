@@ -35,6 +35,7 @@ defaults:
       layout: single
 
 features:
+  custom_scss: true
   scroll_hero: false
   bgfx: true
 

@@ -5,11 +5,26 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+{% if site.features.custom_scss %}
 @import "custom_base";
-
 {% if site.features.scroll_hero %}
 @import "custom_scroll";
 {% endif %}
+{% endif %}
+
+.masthead .site-title {
+  display:block;
+  font-family:"Space Grotesk",system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;
+  font-weight:800;
+  font-size:1.25rem;
+  letter-spacing:.3px;
+  line-height:1;
+  position:absolute;
+  left:1rem;
+  top:50%;
+  transform:translateY(-50%);
+  text-transform:none;
+}
 
 .feature__wrapper {
     gap: 1.25rem;
