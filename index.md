@@ -2,6 +2,7 @@
 layout: single
 title: "John Juszczak"
 author_profile: true
+classes: wide
 sidebar:
   nav: main
 feature_row:
