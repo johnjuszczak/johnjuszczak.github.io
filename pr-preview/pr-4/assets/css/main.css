@@ -5168,7 +5168,9 @@ body {
   }
 }
 .masthead .site-title {
-  display: none !important;
+  color: #fff;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.35);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
 }
 
 .layout--single .masthead {
@@ -5197,6 +5199,11 @@ body {
   padding-top: 80px;
 }
 
+.layout--single .sidebar {
+  position: sticky;
+  top: 100px;
+}
+
 .layout--single .page__hero--overlay {
   margin-top: 0;
   min-height: 60vh;
@@ -5209,6 +5216,20 @@ body {
     min-height: 45vh;
   }
 }
+.masthead .site-title {
+  display: block;
+  font-family: "Space Grotesk", system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 1.25rem;
+  letter-spacing: 0.3px;
+  line-height: 1;
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: none;
+}
+
 .feature__wrapper {
   gap: 1.25rem;
 }
