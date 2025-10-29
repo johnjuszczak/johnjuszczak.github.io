@@ -1,0 +1,13 @@
+.masthead .site-title { display: none !important; }
+
+.layout--single .masthead { position: fixed; top: 0; left: 0; right: 0; background: #2a2f36; border: 0; box-shadow: none; z-index: 100; }
+.layout--single .greedy-nav { background: transparent; border: 0; box-shadow: none; justify-content: center; }
+.layout--single .site-nav { margin-left: 0; }
+
+.layout--single .initial-content { padding-top: 80px; }
+
+.layout--single .page__title { color: #d9e1e8; text-shadow: 0 2px 14px rgba(0,0,0,.7), 0 0 1px rgba(0,0,0,.5); }
+.layout--single .page__lead  { color: #cfd7de; text-shadow: 0 2px 12px rgba(0,0,0,.65); }
+
+.layout--single .sidebar { position: sticky; top: 100px; }
+

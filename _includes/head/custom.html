@@ -1,3 +1,11 @@
 {% if site.baseurl contains '/pr-preview/' %}
 <meta name="robots" content="noindex,nofollow">
 {% endif %}
+{% if site.features.bgfx %}
+<style>#bgfx{position:fixed;inset:0;z-index:-1}</style>
+<canvas id="bgfx"></canvas>
+{% endif %}
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700;800&display=swap" rel="stylesheet">
+

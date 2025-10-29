@@ -1,9 +1,22 @@
 title: "John Juszczak"
 
+author:
+  name: "John Juszczak"
+  bio: "Software Engineer"
+  location: "Los Angeles"
+  links:
+    - label: "Website"
+      url: "https://johnjuszczak.github.io"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/john-juszczak-434408ab/"
+    - label: "GitHub"
+      url: "https://github.com/johnjuszczak"
+
 url: https://johnjuszczak.github.io
 baseurl: ""
 
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+minimal_mistakes_skin: dark
 
 plugins:
   - jekyll-remote-theme
@@ -20,6 +33,11 @@ defaults:
   - scope: { path: "", type: projects }
     values:
       layout: single
+
+features:
+  custom_scss: true
+  scroll_hero: false
+  bgfx: true
 
 analytics:
   provider: "google-gtag"
