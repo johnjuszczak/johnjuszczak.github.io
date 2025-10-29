@@ -5,6 +5,7 @@ description: "Software engineer."
 classes: wide
 header:
   overlay_image: assets/images/heic0910e.jpg
+  overlay_filter: 0.35
   caption: "Credit: NASA, ESA and the Hubble SM4 ERO Team"
 og_image: assets/images/heic0910e.jpg
 excerpt: "Build & Tools Engineer • Game DevOps • Unreal Engine Specialist"
