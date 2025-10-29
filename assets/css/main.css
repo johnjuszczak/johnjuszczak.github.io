@@ -6,7 +6,7 @@
 @import "minimal-mistakes";
 
 .masthead .site-title {
-    display: none;
+    display: none !important;
 }
 
 .feature__wrapper {
