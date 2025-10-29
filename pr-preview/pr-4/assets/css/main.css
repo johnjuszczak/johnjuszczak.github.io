@@ -5209,22 +5209,6 @@ body {
     min-height: 45vh;
   }
 }
-.layout--single .initial-content {
-  opacity: 0;
-  transform: translateY(8px);
-  transition: opacity 0.22s ease, transform 0.22s ease;
-}
-
-body.content-ready .initial-content {
-  opacity: 1;
-  transform: none;
-}
-
-.layout--single .page__hero--overlay {
-  background-position: center var(--heroY, 0px);
-  will-change: background-position;
-}
-
 .feature__wrapper {
   gap: 1.25rem;
 }
