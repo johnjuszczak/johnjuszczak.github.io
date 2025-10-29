@@ -1,10 +1,11 @@
 ---
 layout: single
 author_profile: true
+description: "Software engineer."
 classes: wide
 header:
-  image: assets/images/heic0910e.jpg
-  overlay_filter: 0.35
+  overlay_image: assets/images/heic0910e.jpg
+  overlay_filter: 0.45
   caption: "Credit: NASA, ESA and the Hubble SM4 ERO Team"
 og_image: assets/images/heic0910e.jpg
 feature_row:
