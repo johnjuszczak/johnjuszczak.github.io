@@ -26,4 +26,6 @@ feature_row:
 
 I streamline development workflows, automate build and test pipelines, and deliver tools that ship games and software reliably.
 
+
+## Projects
 {% include feature_row %}
