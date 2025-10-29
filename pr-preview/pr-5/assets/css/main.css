@@ -5212,25 +5212,31 @@ body {
   top: auto !important;
 }
 
-@media (min-width: 1024px) {
-  .layout--single .sidebar {
-    position: sticky !important;
-    top: 100px !important;
-  }
-}
-.sidebar .author__urls-wrapper > .btn {
+.sidebar .author__urls-wrapper .btn,
+.sidebar .author__urls-toggle {
   display: none !important;
 }
 
 .sidebar .author__urls-wrapper {
   position: static !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-  transform: none !important;
+}
+
+.sidebar .author__urls-wrapper:before,
+.sidebar .author__urls-wrapper:after {
+  display: none !important;
 }
 
 .sidebar .author__urls {
   display: block !important;
+  position: static !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0.25rem 0 0 0 !important;
 }
 
 .feature__wrapper {
