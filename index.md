@@ -1,7 +1,9 @@
 ---
-layout: splash
+layout: single
 title: "John Juszczak"
-excerpt: "Build & Tools | Game DevOps | Unreal Engine"
+author_profile: true
+sidebar:
+  nav: main
 feature_row:
   - title: "CompAsset"
     excerpt: "Asset verification tool"

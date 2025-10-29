@@ -1,5 +1,17 @@
 title: "John Juszczak"
 
+author:
+  name: "John Juszczak"
+  bio: "Build & Tools • Game DevOps • Unreal Engine"
+  location: "Los Angeles"
+  links:
+    - label: "Website"
+      url: "https://johnjuszczak.github.io"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/john-juszczak-434408ab/"
+    - label: "GitHub"
+      url: "https://github.com/johnjuszczak"
+
 url: https://johnjuszczak.github.io
 baseurl: ""
 
