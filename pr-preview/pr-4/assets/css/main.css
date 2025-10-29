@@ -5204,6 +5204,17 @@ body.content-ready .initial-content {
   transform: none;
 }
 
+@media (max-width: 768px) {
+  .layout--single .page__hero--overlay {
+    min-height: 45vh;
+  }
+}
+.layout--single .page__hero--overlay {
+  background-position: center var(--heroY, 0px);
+  background-size: cover;
+  will-change: background-position;
+}
+
 .masthead .site-title {
   display: none !important;
 }
