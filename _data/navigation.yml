@@ -1,0 +1,9 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "LinkedIn"
+    url: https://www.linkedin.com/in/john-juszczak-434408ab/
+  - title: "Contact"
+    url: mailto:johnajuszczak@gmail.com
