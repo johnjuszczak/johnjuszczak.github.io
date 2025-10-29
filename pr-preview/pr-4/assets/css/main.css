@@ -5167,5 +5167,43 @@ body {
     height: 1px !important;
   }
 }
+.masthead .site-title {
+  display: none !important;
+}
+
+.feature__wrapper {
+  gap: 1.25rem;
+}
+
+.feature__item {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  background: rgba(255, 255, 255, 0.02);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+}
+
+.feature__item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.feature__item .archive__item-title {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.feature__item .archive__item-teaser,
+.feature__item .archive__item-body,
+.feature__item .archive__item-excerpt,
+.feature__item a {
+  position: relative;
+  z-index: 1;
+}
+
+.feature__item a.stretched-link {
+  position: static;
+}
 
 /*# sourceMappingURL=main.css.map */
