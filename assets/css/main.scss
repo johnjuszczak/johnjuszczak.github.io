@@ -8,7 +8,7 @@
 @import "custom";
 
 .masthead .site-title {
-    display: none;
+    display: none !important;
 }
 
 .feature__wrapper {
