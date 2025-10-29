@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "John Juszczak"
 author_profile: true
 classes: wide
 sidebar:
@@ -19,8 +18,6 @@ feature_row:
     excerpt: "Crash reporting across Android and iOS integrated with Backtrace"
     url: "/projects/backtrace-crash/"
 ---
-
-# Build & Tools Engineer • Game DevOps • Unreal Engine Specialist
 
 I streamline development workflows, automate build and test pipelines, and deliver tools that ship games and software reliably.
 
