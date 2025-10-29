@@ -40,5 +40,6 @@ jobs:
           action: auto
           comment: true
 
-      - if: steps.preview-action.outputs.deployment-action == 'deploy'
+      - name: Output preview URL in action log
+        if: steps.preview-action.outputs.deployment-action == 'deploy'
         run: echo "Preview visible at ${{ steps.preview-action.outputs.preview-url }}"
