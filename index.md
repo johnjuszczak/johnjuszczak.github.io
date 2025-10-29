@@ -3,10 +3,10 @@ layout: single
 author_profile: true
 classes: wide
 header:
-  image: assets/images/m51-spiral.jpg
+  image: assets/images/heic0910e.jpg
   overlay_filter: 0.35
   caption: "Credit: ESA/Webb, NASA & CSA, A. Adamo (Stockholm University) and the FEAST JWST team — <a href='https://esawebb.org/images/potm2308c/'>source</a>"
-og_image: assets/images/m51-spiral.jpg
+og_image: assets/images/heic0910e.jpg
 feature_row:
   - title: "CompAsset"
     excerpt: "Asset verification tool"
