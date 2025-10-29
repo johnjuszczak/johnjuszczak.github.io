@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 author_profile: true
 description: "Software engineer."
 classes: wide
