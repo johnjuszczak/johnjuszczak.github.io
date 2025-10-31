@@ -36,7 +36,7 @@ defaults:
 
 features:
   custom_scss: true
-  scroll_hero: false
+  scroll_hero: true
   bgfx: true
 
 analytics:
