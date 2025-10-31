@@ -5167,19 +5167,11 @@ body {
     height: 1px !important;
   }
 }
-.masthead .site-title {
-  display: none !important;
-}
-
 .layout--single .masthead {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
   background: #2a2f36;
   border: 0;
   box-shadow: none;
-  z-index: 100;
+  z-index: 200;
 }
 
 .layout--single .greedy-nav {
@@ -5191,10 +5183,6 @@ body {
 
 .layout--single .site-nav {
   margin-left: 0;
-}
-
-.layout--single .initial-content {
-  padding-top: 80px;
 }
 
 .layout--single .page__title {
@@ -5237,6 +5225,31 @@ body {
   box-shadow: none !important;
   padding: 0 !important;
   margin: 0.25rem 0 0 0 !important;
+}
+
+/* Ensure hero overlay filter fully covers the background image */
+.page__hero--overlay {
+  position: relative;
+  padding: 0;
+}
+
+.page__hero--overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  pointer-events: none;
+}
+
+.page__hero--overlay > .wrapper {
+  position: relative;
+  z-index: 1; /* keep content above overlay */
+}
+
+/* Keep masthead present but not visible */
+.layout--single .masthead {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .feature__wrapper {
