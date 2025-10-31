@@ -8,3 +8,26 @@
 {% if site.features.custom_scss %}
 @import "custom_base";
 {% endif %}
+
+.feature__wrapper {
+    gap: 1.25rem;
+}
+
+.feature__item {
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  background: rgba(255,255,255,0.02);
+  transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+
+.feature__item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+  border-color: rgba(255,255,255,0.22);
+}
+
+.feature__item .archive__item-title {
+  margin-top: .25rem;
+  margin-bottom: .25rem;
+}
