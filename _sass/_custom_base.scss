@@ -54,7 +54,10 @@
   margin: .25rem 0 0 0 !important;
 }
 
-/* Ensure hero overlay filter fully covers the background image */
+.layout--single .initial-content {
+  padding-top: 0 !important;
+}
+
 .page__hero--overlay {
   position: relative;
   padding: 0;
@@ -70,10 +73,9 @@
 
 .page__hero--overlay > .wrapper {
   position: relative;
-  z-index: 1; /* keep content above overlay */
+  z-index: 1;
 }
 
-/* Keep masthead present but not visible */
 .layout--single .masthead {
   opacity: 0;
   pointer-events: none;
