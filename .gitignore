@@ -3,12 +3,10 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 *.zip
+*.local.yml
 
 .bundle/
-vendor/bundle/
-vendor/cache/
-vendor/gems/
-vendor/ruby/
+vendor/
 
 node_modules/
 tmp/

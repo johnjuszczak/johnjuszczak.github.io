@@ -7,9 +7,6 @@
 
 {% if site.features.custom_scss %}
 @import "custom_base";
-{% if site.features.scroll_hero %}
-@import "custom_scroll";
-{% endif %}
 {% endif %}
 
 .feature__wrapper {

@@ -1,6 +1,47 @@
-{% if site.features.scroll_hero %}
-<script src="{{ '/assets/js/scroll-hero.js' | relative_url }}"></script>
-{% endif %}
-{% if site.features.bgfx %}
-<script defer src="{{ '/assets/js/particles-bg.js' | relative_url }}"></script>
+{% if page.url == '/' or page.url == '/index.html' %}
+<script src="{{ '/assets/js/hero-header.js' | relative_url }}"></script>
+
+<div class="footer-image-credit">Image credit: NASA, ESA and the Hubble SM4 ERO Team.</div>
+<style>
+  .page__footer > footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    column-gap: 0;
+    row-gap: .5rem;
+  }
+
+  .page__footer-follow {
+    order: 0;
+    flex-basis: 100%;
+  }
+
+  .page__footer-copyright {
+    order: 1;
+    margin: 0;
+  }
+
+  .page__footer .footer-image-credit {
+    order: 2;
+    margin-left: auto;
+    text-align: right;
+    font-size: .75rem;
+    opacity: .9;
+  }
+
+  @media (min-width: 48em) {
+    .page__footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .page__footer .footer-image-credit {
+      margin-top: 0;
+    }
+  }
+</style>
 {% endif %}
