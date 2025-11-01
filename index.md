@@ -45,9 +45,34 @@ feature_row:
     url: "/projects/lime-state-machine/"
 ---
 
-## Build Systems & Automation for Reliable Game Software
+## About Me
 
-I’m a software engineer who turns messy build/test loops into fast, repeatable pipelines. My work spans Unreal Engine tooling, CI/CD, and cross-platform automation: functional test frameworks, device orchestration and performance telemetry, crash reporting integrations, and large-scale asset verification. Before games, I shipped at DirecTV across the full stack. From Linux kernel and drivers to Android TV UI and backend services, helping teams achieve sprint-based Android TV releases with Google certification. My goal is always to make working software that people genuinely enjoy using.
+### Turning chaos into harmony
+
+I like untangling gnarly systems and leaving them faster, clearer, and kinder to the next engineer. I'm a game developer and C++ generalist: I implement gameplay, build engine tools, ship UI with Qt, Slate, and Android, and design backend microservices for client/server applications and multiplayer games. I do Unreal Engine tooling, CI/CD, and cross-platform automation. I've developed tools such as functional test frameworks, device orchestration with performance telemetry, crash reporting pipelines, and large-scale asset verification. Before games, I shipped at DirecTV across the full stack, from Linux kernel and drivers to Android TV UI and backend services, all while helping teams reach sprint-based Android TV releases with Google certification. My number one engineering goal is simple: make working software that people genuinely enjoy using.
+
+### Skills
+
+**Languages**
+C++17/23, Python, Java, Groovy, Bash/PowerShell, SQL
+
+**Engines & Frameworks**
+Unreal Engine, Qt, AOSP, Android TV
+
+**Build & CI/CD**
+Jenkins (Groovy pipelines), GitHub Actions, CMake, Unreal Build Tool, UnrealGameSync, Perforce, Git
+
+**Testing & Quality**
+Functional test frameworks (Gauntlet extensions), non-functional/device orchestration, GoogleTest, crash reporting (Backtrace), Zephyr test management, coverage & reporting
+
+**Systems & Platforms**
+Linux (kernel/userspace), Windows, Android/iOS, AWS, container-ready workflows
+
+**Performance & Telemetry**
+Asset verification at scale, performance profiling, metrics dashboards, startup/latency reduction
+
+**Strengths**
+Debugging entangled legacy code, pipeline design, cross-team collaboration, incremental delivery, mentoring, Agile/SAFe practice
 
 
 ## Projects
