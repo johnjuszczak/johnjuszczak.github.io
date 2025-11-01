@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Backtrace Crash Reporting - John Juszczak</title>
+<!-- begin _includes/seo.html --><title>Unreal Engine Device Orchestration Tool - John Juszczak</title>
 <meta name="description" content="">
 
 
@@ -23,8 +23,8 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="John Juszczak">
-<meta property="og:title" content="Backtrace Crash Reporting">
-<meta property="og:url" content="https://johnjuszczak.github.io/projects/backtrace-crash/">
+<meta property="og:title" content="Unreal Engine Device Orchestration Tool">
+<meta property="og:url" content="https://johnjuszczak.github.io/projects/ue-device-orchestration/">
 
 
   <meta property="og:description" content="">
@@ -42,7 +42,7 @@
 
 
 
-<link rel="canonical" href="https://johnjuszczak.github.io/projects/backtrace-crash/">
+<link rel="canonical" href="https://johnjuszczak.github.io/projects/ue-device-orchestration/">
 
 
 
@@ -155,7 +155,7 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Backtrace Crash Reporting">
+    <meta itemprop="headline" content="Unreal Engine Device Orchestration Tool">
     <meta itemprop="description" content="">
     <meta itemprop="datePublished" content="2025-11-01T01:36:55+00:00">
     
@@ -164,7 +164,7 @@
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="https://johnjuszczak.github.io/projects/backtrace-crash/" itemprop="url">Backtrace Crash Reporting
+            <a href="https://johnjuszczak.github.io/projects/ue-device-orchestration/" itemprop="url">Unreal Engine Device Orchestration Tool
 </a>
           </h1>
           
@@ -180,13 +180,13 @@
   
   <div class="project-layout__head">
     
-    <div class="project-layout__media">
-      <img src="/assets/images/uts212302.jpg" alt="Backtrace Crash Reporting" />
+    <div class="project-layout__media" style="flex: 0 0 80px; max-width: 80px;">
+      <img src="/assets/images/zep.jpg" alt="Unreal Engine Device Orchestration Tool" />
     </div>
     
     
     <div class="project-layout__summary">
-      <p class="page__lead">Cross-platform Unreal Engine crash reporting for Android and iOS</p>
+      <p class="page__lead">Python-based runner that builds, deploys, and executes UE test suites across Android and iOS device pools with server coordination</p>
     </div>
     
   </div>
@@ -195,20 +195,24 @@
     
 <h3 id="scope">Scope</h3>
 <ul>
-  <li>Integrated Backtrace crash reporting into a single Unreal Engine project targeting Android and iOS</li>
-  <li>Android: injected Java layer into the UE Android build and bridged native data via NDK</li>
-  <li>iOS: implemented Objective-C and Swift crash-reporting keys and backend integration</li>
-  <li>Unified report structure across platforms to keep metadata consistent</li>
+  <li>Replaced UAT-based orchestration with a Python application integrated directly with the studio Python build system</li>
+  <li>Registered and managed device pools with selection by explicit devices or performance tiers (low, mid, high)</li>
+  <li>Produced platform-correct builds based on selected devices and server target, then installed to each device</li>
+  <li>Stood up dedicated servers on Windows or Linux and coordinated client launches and connections</li>
+  <li>Executed test suites across sets of maps with tests authored to be map agnostic</li>
+  <li>Coordinated with the Test Bot Tool to drive Behavior Tree scenarios and validations on real devices</li>
+  <li>Collected artifacts and results then bundled reports for local ad hoc runs and CI usage</li>
 </ul>
 
 <h3 id="tech">Tech</h3>
-<p>Unreal Engine (C++), Android (Java, NDK), iOS (Objective-C, Swift), Backtrace SDK</p>
+<p>Unreal Engine, Python, Jenkins, CI/CD, Android, iOS, Linux, Windows</p>
 
 <h3 id="results">Results</h3>
 <ul>
-  <li>Consistent, cross-platform crash payloads with platform-specific metadata</li>
-  <li>Single integration path maintained within the UE codebase for both mobile targets</li>
-  <li>Reliable delivery of crash reports to the Backtrace backend from Android and iOS builds</li>
+  <li>Unified build-deploy-run loop for Android and iOS device racks</li>
+  <li>Scalable orchestration that reduced flakiness by decoupling sync logic into engine-side tools</li>
+  <li>Map set execution enabled broader coverage with fewer bespoke tests</li>
+  <li>Actionable bundled reports surfaced in Jenkins with consistent pass/fail signals</li>
 </ul>
 
   </div>
@@ -234,10 +238,10 @@
       
   <nav class="pagination">
     
-      <a href="/projects/att-tv/" class="pagination--pager" title="AT&amp;T TV">Previous</a>
+      <a href="/projects/test-bot-tool/" class="pagination--pager" title="Test Bot Tool">Previous</a>
     
     
-      <a href="/projects/compasset/" class="pagination--pager" title="CompAsset">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 

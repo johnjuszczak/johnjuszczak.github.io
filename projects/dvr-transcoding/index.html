@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Backtrace Crash Reporting - John Juszczak</title>
+<!-- begin _includes/seo.html --><title>DVR Transcoding - John Juszczak</title>
 <meta name="description" content="">
 
 
@@ -23,8 +23,8 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="John Juszczak">
-<meta property="og:title" content="Backtrace Crash Reporting">
-<meta property="og:url" content="https://johnjuszczak.github.io/projects/backtrace-crash/">
+<meta property="og:title" content="DVR Transcoding">
+<meta property="og:url" content="https://johnjuszczak.github.io/projects/dvr-transcoding/">
 
 
   <meta property="og:description" content="">
@@ -42,7 +42,7 @@
 
 
 
-<link rel="canonical" href="https://johnjuszczak.github.io/projects/backtrace-crash/">
+<link rel="canonical" href="https://johnjuszczak.github.io/projects/dvr-transcoding/">
 
 
 
@@ -155,7 +155,7 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Backtrace Crash Reporting">
+    <meta itemprop="headline" content="DVR Transcoding">
     <meta itemprop="description" content="">
     <meta itemprop="datePublished" content="2025-11-01T01:36:55+00:00">
     
@@ -164,7 +164,7 @@
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="https://johnjuszczak.github.io/projects/backtrace-crash/" itemprop="url">Backtrace Crash Reporting
+            <a href="https://johnjuszczak.github.io/projects/dvr-transcoding/" itemprop="url">DVR Transcoding
 </a>
           </h1>
           
@@ -181,12 +181,12 @@
   <div class="project-layout__head">
     
     <div class="project-layout__media">
-      <img src="/assets/images/uts212302.jpg" alt="Backtrace Crash Reporting" />
+      <img src="/assets/images/dtvhr231025.jpg" alt="DVR Transcoding" />
     </div>
     
     
     <div class="project-layout__summary">
-      <p class="page__lead">Cross-platform Unreal Engine crash reporting for Android and iOS</p>
+      <p class="page__lead">Stream and download DVR recordings from your set-top box to the mobile app</p>
     </div>
     
   </div>
@@ -195,20 +195,21 @@
     
 <h3 id="scope">Scope</h3>
 <ul>
-  <li>Integrated Backtrace crash reporting into a single Unreal Engine project targeting Android and iOS</li>
-  <li>Android: injected Java layer into the UE Android build and bridged native data via NDK</li>
-  <li>iOS: implemented Objective-C and Swift crash-reporting keys and backend integration</li>
-  <li>Unified report structure across platforms to keep metadata consistent</li>
+  <li>Implemented on-box C++ server exposing recordings and using hardware transcoders to generate mobile-ready streams</li>
+  <li>Built the client module within the DirecTV mobile app to browse recordings, stream, or download for offline use</li>
+  <li>Designed adaptive bitrate logic that adjusted resolution/bitrate based on network conditions</li>
+  <li>Created automated end-to-end tests with Node.js promise-based flows for client-server validation</li>
+  <li>Practiced kanban sprints with up-front UML design reviews and iterative demos</li>
 </ul>
 
 <h3 id="tech">Tech</h3>
-<p>Unreal Engine (C++), Android (Java, NDK), iOS (Objective-C, Swift), Backtrace SDK</p>
+<p>C++ (server and client components), SQLite, GoogleTest, Android (Java), Node.js (promise-based E2E)</p>
 
 <h3 id="results">Results</h3>
 <ul>
-  <li>Consistent, cross-platform crash payloads with platform-specific metadata</li>
-  <li>Single integration path maintained within the UE codebase for both mobile targets</li>
-  <li>Reliable delivery of crash reports to the Backtrace backend from Android and iOS builds</li>
+  <li>Reliable streaming and downloads from personal DVRs to mobile devices</li>
+  <li>Maintainable client-server architecture with strong automated test coverage</li>
+  <li>Smooth iterative delivery enabled by design-first sprints</li>
 </ul>
 
   </div>
@@ -234,10 +235,10 @@
       
   <nav class="pagination">
     
-      <a href="/projects/att-tv/" class="pagination--pager" title="AT&amp;T TV">Previous</a>
+      <a href="/projects/compasset/" class="pagination--pager" title="CompAsset">Previous</a>
     
     
-      <a href="/projects/compasset/" class="pagination--pager" title="CompAsset">Next</a>
+      <a href="/projects/gauntletu4f/" class="pagination--pager" title="GauntletU4F">Next</a>
     
   </nav>
 

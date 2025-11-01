@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Backtrace Crash Reporting - John Juszczak</title>
+<!-- begin _includes/seo.html --><title>Test Bot Tool - John Juszczak</title>
 <meta name="description" content="">
 
 
@@ -23,8 +23,8 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="John Juszczak">
-<meta property="og:title" content="Backtrace Crash Reporting">
-<meta property="og:url" content="https://johnjuszczak.github.io/projects/backtrace-crash/">
+<meta property="og:title" content="Test Bot Tool">
+<meta property="og:url" content="https://johnjuszczak.github.io/projects/test-bot-tool/">
 
 
   <meta property="og:description" content="">
@@ -42,7 +42,7 @@
 
 
 
-<link rel="canonical" href="https://johnjuszczak.github.io/projects/backtrace-crash/">
+<link rel="canonical" href="https://johnjuszczak.github.io/projects/test-bot-tool/">
 
 
 
@@ -155,7 +155,7 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Backtrace Crash Reporting">
+    <meta itemprop="headline" content="Test Bot Tool">
     <meta itemprop="description" content="">
     <meta itemprop="datePublished" content="2025-11-01T01:36:55+00:00">
     
@@ -164,7 +164,7 @@
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="https://johnjuszczak.github.io/projects/backtrace-crash/" itemprop="url">Backtrace Crash Reporting
+            <a href="https://johnjuszczak.github.io/projects/test-bot-tool/" itemprop="url">Test Bot Tool
 </a>
           </h1>
           
@@ -181,34 +181,40 @@
   <div class="project-layout__head">
     
     <div class="project-layout__media">
-      <img src="/assets/images/uts212302.jpg" alt="Backtrace Crash Reporting" />
+      <img src="/assets/images/ueta253110.jpg" alt="Test Bot Tool" />
     </div>
     
     
     <div class="project-layout__summary">
-      <p class="page__lead">Cross-platform Unreal Engine crash reporting for Android and iOS</p>
+      <p class="page__lead">BehaviorTree based automated testing for UE</p>
     </div>
     
   </div>
   
   <div class="project-layout__body">
     
+<h3 id="description">Description</h3>
+<p>BehaviorTree implemented bot behavior integrated with the GauntletU4F functional testing tool that spawns and drives bots through deterministic behaviors to validate gameplay flows in a multiplayer context.</p>
+
 <h3 id="scope">Scope</h3>
 <ul>
-  <li>Integrated Backtrace crash reporting into a single Unreal Engine project targeting Android and iOS</li>
-  <li>Android: injected Java layer into the UE Android build and bridged native data via NDK</li>
-  <li>iOS: implemented Objective-C and Swift crash-reporting keys and backend integration</li>
-  <li>Unified report structure across platforms to keep metadata consistent</li>
+  <li>Extended the functional testing tool to support bot-driven tests using Behavior Trees and Blackboard data</li>
+  <li>Introduced simplified scripting per net role with Server and N Client nodes exposed directly in Blueprint</li>
+  <li>Added test assets for composing behaviors and validations, including health/attacker checks and control-point objectives</li>
+  <li>Implemented per-bot Behavior Tree assignment within test plans, with automatic bot spawning and configuration</li>
+  <li>Built client/bot identification and ID assignment so validations could target specific bots consistently</li>
+  <li>Co-designed a library of reusable bot test behaviors with the AI team and integrated execution into the existing test plan workflow</li>
 </ul>
 
 <h3 id="tech">Tech</h3>
-<p>Unreal Engine (C++), Android (Java, NDK), iOS (Objective-C, Swift), Backtrace SDK</p>
+<p>Unreal Engine, C++, Blueprints, Behavior Tree, Blackboard, Automation</p>
 
 <h3 id="results">Results</h3>
 <ul>
-  <li>Consistent, cross-platform crash payloads with platform-specific metadata</li>
-  <li>Single integration path maintained within the UE codebase for both mobile targets</li>
-  <li>Reliable delivery of crash reports to the Backtrace backend from Android and iOS builds</li>
+  <li>Lowered effort to author multiplayer bot tests via per-role Blueprint nodes and per-bot Behavior Trees</li>
+  <li>Deterministic validations that coupled bot behaviors with measurable outcomes</li>
+  <li>Broader adoption by AI and gameplay developers due to reusable behavior and validation assets</li>
+  <li>Consistent mapping between clients and bots enabling stable test orchestration</li>
 </ul>
 
   </div>
@@ -234,10 +240,10 @@
       
   <nav class="pagination">
     
-      <a href="/projects/att-tv/" class="pagination--pager" title="AT&amp;T TV">Previous</a>
+      <a href="/projects/starpunch-poker/" class="pagination--pager" title="Starpunch Poker">Previous</a>
     
     
-      <a href="/projects/compasset/" class="pagination--pager" title="CompAsset">Next</a>
+      <a href="/projects/ue-device-orchestration/" class="pagination--pager" title="Unreal Engine Device Orchestration Tool">Next</a>
     
   </nav>
 

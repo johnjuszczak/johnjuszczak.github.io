@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Backtrace Crash Reporting - John Juszczak</title>
+<!-- begin _includes/seo.html --><title>GauntletU4F.AutomationTool - John Juszczak</title>
 <meta name="description" content="">
 
 
@@ -23,8 +23,8 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="John Juszczak">
-<meta property="og:title" content="Backtrace Crash Reporting">
-<meta property="og:url" content="https://johnjuszczak.github.io/projects/backtrace-crash/">
+<meta property="og:title" content="GauntletU4F.AutomationTool">
+<meta property="og:url" content="https://johnjuszczak.github.io/projects/gu4f-automation-tool/">
 
 
   <meta property="og:description" content="">
@@ -42,7 +42,7 @@
 
 
 
-<link rel="canonical" href="https://johnjuszczak.github.io/projects/backtrace-crash/">
+<link rel="canonical" href="https://johnjuszczak.github.io/projects/gu4f-automation-tool/">
 
 
 
@@ -155,7 +155,7 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Backtrace Crash Reporting">
+    <meta itemprop="headline" content="GauntletU4F.AutomationTool">
     <meta itemprop="description" content="">
     <meta itemprop="datePublished" content="2025-11-01T01:36:55+00:00">
     
@@ -164,7 +164,7 @@
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="https://johnjuszczak.github.io/projects/backtrace-crash/" itemprop="url">Backtrace Crash Reporting
+            <a href="https://johnjuszczak.github.io/projects/gu4f-automation-tool/" itemprop="url">GauntletU4F.AutomationTool
 </a>
           </h1>
           
@@ -181,12 +181,12 @@
   <div class="project-layout__head">
     
     <div class="project-layout__media">
-      <img src="/assets/images/uts212302.jpg" alt="Backtrace Crash Reporting" />
+      <img src="/assets/images/uee253110.jpg" alt="GauntletU4F.AutomationTool" />
     </div>
     
     
     <div class="project-layout__summary">
-      <p class="page__lead">Cross-platform Unreal Engine crash reporting for Android and iOS</p>
+      <p class="page__lead">Unreal Automation Tool extension for functional test orchestration on real devices</p>
     </div>
     
   </div>
@@ -195,20 +195,22 @@
     
 <h3 id="scope">Scope</h3>
 <ul>
-  <li>Integrated Backtrace crash reporting into a single Unreal Engine project targeting Android and iOS</li>
-  <li>Android: injected Java layer into the UE Android build and bridged native data via NDK</li>
-  <li>iOS: implemented Objective-C and Swift crash-reporting keys and backend integration</li>
-  <li>Unified report structure across platforms to keep metadata consistent</li>
+  <li>Coordinated packaged game launches on Android/iOS and instructed the GU4F test plugin which plans, suites, and steps to run</li>
+  <li>Selected and enforced the correct map per test and synchronized start conditions across all clients</li>
+  <li>Implemented the server role: initial Windows host, later Linux on an AWS agent, with per-test session lifecycle</li>
+  <li>Managed client-server syncing, connection checks, and timeouts to recover from device or launch failures</li>
+  <li>Evolved the protocol so more of the sync responsibilities could be handled inside the GU4F test plugin</li>
 </ul>
 
 <h3 id="tech">Tech</h3>
-<p>Unreal Engine (C++), Android (Java, NDK), iOS (Objective-C, Swift), Backtrace SDK</p>
+<p>C#, Unreal Automation Tool (UAT), Android, iOS, Networking, AWS Linux, Windows</p>
 
 <h3 id="results">Results</h3>
 <ul>
-  <li>Consistent, cross-platform crash payloads with platform-specific metadata</li>
-  <li>Single integration path maintained within the UE codebase for both mobile targets</li>
-  <li>Reliable delivery of crash reports to the Backtrace backend from Android and iOS builds</li>
+  <li>Deterministic, repeatable functional test runs on real devices</li>
+  <li>Lower flakiness through robust launch, connection, and timeout handling</li>
+  <li>Scalable orchestration via cloud-hosted server sessions</li>
+  <li>Clear separation of orchestration (UAT) from in-game test logic (GU4F plugin)</li>
 </ul>
 
   </div>
@@ -234,10 +236,10 @@
       
   <nav class="pagination">
     
-      <a href="/projects/att-tv/" class="pagination--pager" title="AT&amp;T TV">Previous</a>
+      <a href="/projects/gauntletu4f/" class="pagination--pager" title="GauntletU4F">Previous</a>
     
     
-      <a href="/projects/compasset/" class="pagination--pager" title="CompAsset">Next</a>
+      <a href="/projects/lime-state-machine/" class="pagination--pager" title="Lime State Machine">Next</a>
     
   </nav>
 
