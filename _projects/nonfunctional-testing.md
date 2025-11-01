@@ -7,10 +7,7 @@ image_path: /assets/images/uee253110.jpg
 show_date: false
 ---
 
-{% if page.summary %}
-<p class="page__lead">{{ page.summary }}</p>
-{% endif %}
-
+{% capture project_body %}
 ### Scope
 <ul>
   <li>Extended a UE plugin to emit performance telemetry from real devices for map-scoped scenarios</li>
@@ -30,4 +27,7 @@ Unreal Engine, UAT, C#, Python, Android, iOS, Firebase, New Relic
   <li>Dashboards that exposed regressions early and reduced manual perf checks</li>
   <li>Lower flakiness via orchestrated device runs and scenario synchronization</li>
 </ul>
+{% endcapture %}
+
+{% include project_split.html body=project_body %}
 

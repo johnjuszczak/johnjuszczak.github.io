@@ -1,16 +1,13 @@
 ---
 title: "CompAsset"
-summary: "Unreal Engine Asset Verification Automation Plugin"
+summary: "Unreal Engine Automated Asset Verification Plugin"
 tags: [Unreal, Slate, CI/CD, Jenkins, Perforce]
 permalink: /projects/compasset/
 image_path: /assets/images/ueta253110.jpg
 show_date: false
 ---
 
-{% if page.summary %}
-<p class="page__lead">{{ page.summary }}</p>
-{% endif %}
-
+{% capture project_body %}
 ### Scope
 <ul>
   <li>Implemented verification engine subsystem leveraging AssetRegistry.</li>
@@ -29,3 +26,6 @@ C++ (Unreal/Slate), Jenkins, Perforce
   <li>Improved CI/CD pipeline execution time.</li>
   <li>Increased tool adoption among artists.</li>
 </ul>
+{% endcapture %}
+
+{% include project_split.html body=project_body %}

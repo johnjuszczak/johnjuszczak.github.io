@@ -7,10 +7,7 @@ image_path: /assets/images/uts212302.jpg
 show_date: false
 ---
 
-{% if page.summary %}
-<p class="page__lead">{{ page.summary }}</p>
-{% endif %}
-
+{% capture project_body %}
 ### Scope
 <ul>
   <li>Integrated Backtrace crash reporting into a single Unreal Engine project targeting Android and iOS</li>
@@ -28,3 +25,6 @@ Unreal Engine (C++), Android (Java, NDK), iOS (Objective-C, Swift), Backtrace SD
   <li>Single integration path maintained within the UE codebase for both mobile targets</li>
   <li>Reliable delivery of crash reports to the Backtrace backend from Android and iOS builds</li>
 </ul>
+{% endcapture %}
+
+{% include project_split.html body=project_body %}

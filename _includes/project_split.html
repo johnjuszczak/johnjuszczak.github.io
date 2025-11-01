@@ -1,10 +1,22 @@
 {% assign alt_text = page.image_alt | default: page.title %}
-<div class="project-split">
-  <div class="project-split__media">
-    <img src="{{ page.image_path | relative_url }}" alt="{{ alt_text | escape }}">
+{% assign body = include.body | default: include.content %}
+{% assign image_width = page.image_width %}
+<div class="project-layout">
+  {% if page.image_path or page.summary %}
+  <div class="project-layout__head">
+    {% if page.image_path %}
+    <div class="project-layout__media"{% if image_width %} style="flex: 0 0 {{ image_width }}px; max-width: {{ image_width }}px;"{% endif %}>
+      <img src="{{ page.image_path | relative_url }}" alt="{{ alt_text | escape }}">
+    </div>
+    {% endif %}
+    {% if page.summary %}
+    <div class="project-layout__summary">
+      <p class="page__lead">{{ page.summary }}</p>
+    </div>
+    {% endif %}
   </div>
-  <div class="project-split__copy">
-    <p class="project-summary">{{ page.summary }}</p>
-    {{ content }}
+  {% endif %}
+  <div class="project-layout__body">
+    {{ body | markdownify }}
   </div>
 </div>

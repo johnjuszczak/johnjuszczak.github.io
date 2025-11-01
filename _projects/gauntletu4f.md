@@ -7,10 +7,7 @@ image_path: /assets/images/ueta253110.jpg
 show_date: false
 ---
 
-{% if page.summary %}
-<p class="page__lead">{{ page.summary }}</p>
-{% endif %}
-
+{% capture project_body %}
 ### Scope
 <ul>
   <li>Slate frontend listing tests with categories, selection, and execution controls</li>
@@ -32,4 +29,7 @@ Unreal Engine (C++/UObject, Slate, Blueprints), Gauntlet, UAT, Python, CSV
   <li>Consistent, exportable results for CI and device-lab runs</li>
   <li>Lower onboarding cost for writing and organizing functional tests</li>
 </ul>
+{% endcapture %}
+
+{% include project_split.html body=project_body %}
 

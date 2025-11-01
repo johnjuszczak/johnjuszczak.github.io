@@ -7,10 +7,7 @@ image_path: /assets/images/attv3102510.jpg
 show_date: false
 ---
 
-{% if page.summary %}
-<p class="page__lead">{{ page.summary }}</p>
-{% endif %}
-
+{% capture project_body %}
 ### Scope
 <ul>
   <li>Integrated with backend microservice architecture for user tokenization and data</li>
@@ -32,3 +29,6 @@ Linux/C, C++, Android/Java, J2EE/Spring, Bash, Jenkins/Groovy
   <li>Enabled per-sprint AndroidTV certification CI/CD process</li>
   <li>Co-founded CI/CD systems team</li>
 </ul>
+{% endcapture %}
+
+{% include project_split.html body=project_body %}

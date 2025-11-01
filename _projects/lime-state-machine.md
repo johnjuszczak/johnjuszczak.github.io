@@ -7,10 +7,7 @@ image_path: /assets/images/limsm.jpg
 show_date: false
 ---
 
-{% if page.summary %}
-<p class="page__lead">{{ page.summary }}</p>
-{% endif %}
-
+{% capture project_body %}
 ### Scope
 <ul>
   <li>Event-driven runtime API for defining states, transitions, and effects</li>
@@ -29,3 +26,6 @@ C++23, Coroutines, CMake, GoogleTest, Header-only
   <li>Deterministic, testable transition logic with clear separation of concerns</li>
   <li>Easy integration into existing build systems and CI</li>
 </ul>
+{% endcapture %}
+
+{% include project_split.html body=project_body %}
