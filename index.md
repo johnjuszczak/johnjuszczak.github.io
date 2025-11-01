@@ -45,7 +45,9 @@ feature_row:
     url: "/projects/lime-state-machine/"
 ---
 
-I streamline development workflows, automate build and test pipelines, and deliver tools that ship games and software reliably.
+## Build Systems & Automation for Reliable Game Software
+
+I’m a software engineer who turns messy build/test loops into fast, repeatable pipelines. My work spans Unreal Engine tooling, CI/CD, and cross-platform automation: functional test frameworks, device orchestration and performance telemetry, crash reporting integrations, and large-scale asset verification. Before games, I shipped at DirecTV across the full stack. From Linux kernel and drivers to Android TV UI and backend services, helping teams achieve sprint-based Android TV releases with Google certification. My goal is always to make working software that people genuinely enjoy using.
 
 
 ## Projects
