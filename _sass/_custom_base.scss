@@ -80,3 +80,31 @@
   opacity: 0;
   pointer-events: none;
 }
+
+.project-split {
+  display: grid;
+  grid-template-columns: minmax(240px, 40%) 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+.project-split__media img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+.project-summary {
+  margin-top: 0;
+}
+@media (max-width: 900px) {
+  .project-split {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+/* Hide auto-injected updated date on project pages */
+.page__date {
+  display: none !important;
+}
+

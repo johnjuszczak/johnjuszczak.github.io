@@ -1,0 +1,10 @@
+{% assign alt_text = page.image_alt | default: page.title %}
+<div class="project-split">
+  <div class="project-split__media">
+    <img src="{{ page.image_path | relative_url }}" alt="{{ alt_text | escape }}">
+  </div>
+  <div class="project-split__copy">
+    <p class="project-summary">{{ page.summary }}</p>
+    {{ content }}
+  </div>
+</div>
