@@ -6,10 +6,13 @@ author:
   location: "Los Angeles"
   links:
     - label: "Website"
+      icon: fa-solid fa-globe
       url: "https://johnjuszczak.github.io"
     - label: "LinkedIn"
+      icon: fa-brands fa-linkedin
       url: "https://www.linkedin.com/in/john-juszczak-434408ab/"
     - label: "GitHub"
+      icon: fa-brands fa-github
       url: "https://github.com/johnjuszczak"
 
 url: https://johnjuszczak.github.io

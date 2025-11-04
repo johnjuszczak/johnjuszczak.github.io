@@ -20,7 +20,7 @@ show_date: false
 </ul>
 
 ### Tech
-Unreal Engine (C++/UObject, Slate, Blueprints), Gauntlet, UAT, Python, CSV
+Unreal Engine, C++, Slate, Blueprints, Gauntlet, UAT, Python, CSV
 
 ### Results
 <ul>

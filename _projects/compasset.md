@@ -18,7 +18,7 @@ show_date: false
 </ul>
 
 ### Tech
-C++ (Unreal/Slate), Jenkins, Perforce
+C++, Unreal Engine, Slate, Jenkins, Perforce
 
 ### Results
 <ul>

@@ -1,7 +1,7 @@
 ---
 title: "Lime State Machine"
 summary: "Header-only modern C++23 FSM library with a pragmatic runtime API and coroutine adapter"
-tags: [C++23, Coroutines, CMake, GoogleTest, Header-only, C++]
+tags: [C++23, Coroutines, CMake, Header-only, C++]
 permalink: /projects/lime-state-machine/
 image_path: /assets/images/limsm.jpg
 show_date: false
@@ -18,7 +18,7 @@ show_date: false
 </ul>
 
 ### Tech
-C++23, Coroutines, CMake, GoogleTest, Header-only
+C++, Coroutines, CMake
 
 ### Results
 <ul>

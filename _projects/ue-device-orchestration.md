@@ -1,6 +1,6 @@
 ---
 title: "Unreal Engine Device Orchestration Tool"
-summary: "Python-based runner that builds, deploys, and executes UE test suites across Android and iOS device pools with server coordination"
+summary: "Python based runner that builds, deploys, and executes UE test suites across Android and iOS device pools with server coordination"
 tags: [Unreal, Python, Jenkins, CI/CD, Android, iOS, Linux, Windows]
 permalink: /projects/ue-device-orchestration/
 image_path: /assets/images/zep.jpg

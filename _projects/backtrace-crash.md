@@ -17,7 +17,7 @@ show_date: false
 </ul>
 
 ### Tech
-Unreal Engine (C++), Android (Java, NDK), iOS (Objective-C, Swift), Backtrace SDK
+Unreal Engine, C++, Android, Java, NDK, iOS, Objective-C, Swift, Backtrace
 
 ### Results
 <ul>

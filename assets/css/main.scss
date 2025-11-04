@@ -14,11 +14,28 @@
 }
 
 .feature__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  height: 16rem;
+  box-sizing: border-box;
   border: 1px solid rgba(255,255,255,0.12);
   border-radius: 8px;
   padding: 1rem 1.25rem;
   background: rgba(255,255,255,0.02);
   transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+
+.feature__item .archive__item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.feature__item .archive__item-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .feature__item:hover {
@@ -31,3 +48,5 @@
   margin-top: .25rem;
   margin-bottom: .25rem;
 }
+
+.feature__item .archive__item-body > p:last-child { margin-top: auto; }
