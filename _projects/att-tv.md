@@ -20,7 +20,7 @@ show_date: false
 </ul>
 
 ### Tech
-Linux/C, C++, Android/Java, J2EE/Spring, Bash, Jenkins/Groovy
+Android/Java, C++, C, Linux, J2EE/Spring, Bash, Jenkins, Groovy
 
 ### Results
 <ul>

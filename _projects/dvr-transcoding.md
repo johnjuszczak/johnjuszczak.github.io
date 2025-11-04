@@ -18,7 +18,7 @@ show_date: false
 </ul>
 
 ### Tech
-C++ (server and client components), SQLite, GoogleTest, Android (Java), Node.js (promise-based E2E)
+C++, SQLite, GoogleTest, Android, Java, Node.js
 
 ### Results
 <ul>
