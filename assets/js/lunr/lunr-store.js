@@ -37,7 +37,7 @@ var store = [{
       },{
         "title": "Lime State Machine",
         "excerpt":"Header-only modern C++23 FSM library with a pragmatic runtime API and coroutine adapter Scope Event-driven runtime API for defining states, transitions, and effects Pluggable callable and effect policies for flexible output and side-effect handling Coroutine adapter for composing async workflows with awaitable transitions Small, dependency-free surface designed for embedding in...","categories": [],
-        "tags": ["C++23","Coroutines","CMake","GoogleTest","Header-only","C++"],
+        "tags": ["C++23","Coroutines","CMake","Header-only","C++"],
         "url": "/projects/lime-state-machine/",
         "teaser": null
       },{
@@ -66,7 +66,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Unreal Engine Device Orchestration Tool",
-        "excerpt":"Python-based runner that builds, deploys, and executes UE test suites across Android and iOS device pools with server coordination Scope Replaced UAT-based orchestration with a Python application integrated directly with the studio Python build system Registered and managed device pools with selection by explicit devices or performance tiers (low, mid,...","categories": [],
+        "excerpt":"Python based runner that builds, deploys, and executes UE test suites across Android and iOS device pools with server coordination Scope Replaced UAT-based orchestration with a Python application integrated directly with the studio Python build system Registered and managed device pools with selection by explicit devices or performance tiers (low,...","categories": [],
         "tags": ["Unreal","Python","Jenkins","CI/CD","Android","iOS","Linux","Windows"],
         "url": "/projects/ue-device-orchestration/",
         "teaser": null

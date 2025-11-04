@@ -5299,7 +5299,6 @@ body {
     max-width: none;
   }
 }
-/* Hide auto-injected updated date on project pages */
 .page__date {
   display: none !important;
 }
@@ -5309,11 +5308,28 @@ body {
 }
 
 .feature__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  height: 16rem;
+  box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 8px;
   padding: 1rem 1.25rem;
   background: rgba(255, 255, 255, 0.02);
   transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+}
+
+.feature__item .archive__item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.feature__item .archive__item-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .feature__item:hover {
@@ -5325,6 +5341,10 @@ body {
 .feature__item .archive__item-title {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
+}
+
+.feature__item .archive__item-body > p:last-child {
+  margin-top: auto;
 }
 
 /*# sourceMappingURL=main.css.map */
