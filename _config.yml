@@ -3,6 +3,7 @@ title: "John Juszczak"
 author:
   name: "John Juszczak"
   bio: "Software Engineer"
+  avatar: /assets/images/avatar_400.jpg
   location: "Los Angeles"
   links:
     - label: "Website"
