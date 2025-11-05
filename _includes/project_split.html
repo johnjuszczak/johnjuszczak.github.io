@@ -5,7 +5,7 @@
   {% if page.image_path or page.summary %}
   <div class="project-layout__head">
     {% if page.image_path %}
-    <div class="project-layout__media"{% if image_width %} style="flex: 0 0 {{ image_width }}px; max-width: {{ image_width }}px;"{% endif %}>
+    <div class="project-layout__media"{% if image_width %} style="max-width: {{ image_width }}px;"{% endif %}>
       <img src="{{ page.image_path | relative_url }}" alt="{{ alt_text | escape }}">
     </div>
     {% endif %}

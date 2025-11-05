@@ -63,25 +63,25 @@ I’m a software engineer with a passion for C++ and learning diverse systems. I
 
 ### Skills
 
-**Languages**
-C++, Python, Java, Groovy, Bash/PowerShell, SQL
+**Languages:**
+C++, Python, Java, Groovy, C#, Objective-C, Swift, Javascript, Bash, PowerShell, SQL
 
-**Engines & Frameworks**
+**Engines & Frameworks:**
 Unreal Engine, Qt, AOSP, Android TV
 
-**Build & CI/CD**
+**Build & CI/CD:**
 Jenkins, GitHub Actions, CMake, Unreal Build Tool, UnrealGameSync, Perforce, Git
 
-**Testing & Quality**
-Functional test frameworks, non-functional/device orchestration, GoogleTest, crash reporting, Zephyr test management, coverage & reporting
+**Testing & Quality:**
+Functional test frameworks, device orchestration, GoogleTest, crash reporting, Zephyr test management, coverage & reporting
 
-**Systems & Platforms**
+**Systems & Platforms:**
 Windows, Linux, Android/iOS, AWS, container-ready workflows
 
-**Performance & Telemetry**
+**Performance & Telemetry:**
 Asset verification at scale, performance profiling, metrics dashboards, startup/latency reduction
 
-**Strengths**
+**Strengths:**
 Software architecture and design, debugging and refactoring entangled legacy code, pipeline design, cross-team collaboration, incremental delivery, mentoring, Agile practice
 
 
