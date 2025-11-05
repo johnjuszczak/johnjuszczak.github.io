@@ -5264,13 +5264,13 @@ body {
 
 .project-layout__head {
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   gap: 1.5rem;
   margin-bottom: 2rem;
 }
 
 .project-layout__media {
-  flex: 0 0 220px;
   max-width: 240px;
 }
 
