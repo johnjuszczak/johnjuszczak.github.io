@@ -36,7 +36,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Lime State Machine",
-        "excerpt":"Header-only modern C++23 FSM library with a pragmatic runtime API and coroutine adapter Scope Event-driven runtime API for defining states, transitions, and effects Pluggable callable and effect policies for flexible output and side-effect handling Coroutine adapter for composing async workflows with awaitable transitions Small, dependency-free surface designed for embedding in...","categories": [],
+        "excerpt":"Header-only modern C++23 FSM library with a pragmatic runtime API and coroutine adapter Repository link Scope Event-driven runtime API for defining states, transitions, and effects Pluggable callable and effect policies for flexible output and side-effect handling Coroutine adapter for composing async workflows with awaitable transitions Small, dependency-free surface designed for...","categories": [],
         "tags": ["C++23","Coroutines","CMake","Header-only","C++"],
         "url": "/projects/lime-state-machine/",
         "teaser": null
