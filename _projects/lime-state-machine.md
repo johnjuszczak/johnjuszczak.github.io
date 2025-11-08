@@ -8,6 +8,9 @@ show_date: false
 ---
 
 {% capture project_body %}
+
+[Repository link](https://github.com/johnjuszczak/LSM?utm_source=johnjuszczak.github.io)
+
 ### Scope
 <ul>
   <li>Event-driven runtime API for defining states, transitions, and effects</li>
@@ -26,6 +29,7 @@ C++, Coroutines, CMake
   <li>Deterministic, testable transition logic with clear separation of concerns</li>
   <li>Easy integration into existing build systems and CI</li>
 </ul>
+
 {% endcapture %}
 
 {% include project_split.html body=project_body %}
